@@ -7,6 +7,8 @@ response = requests.get("https://www.nba.com/stats/")
 
 stats = response.text
 
+
+# Stats page of the NBA
 soup = BeautifulSoup(stats, "lxml")
 
 print(soup.prettify())
