@@ -11,4 +11,5 @@ stats = response.text
 # Stats page of the NBA
 soup = BeautifulSoup(stats, "lxml")
 
+# Show all entire html page
 print(soup.prettify())
