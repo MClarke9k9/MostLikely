@@ -13,3 +13,5 @@ soup = BeautifulSoup(stats, "lxml")
 
 # Show all entire html page
 print(soup.prettify())
+
+soup.find_all()
