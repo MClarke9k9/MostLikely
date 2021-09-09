@@ -15,3 +15,7 @@ soup = BeautifulSoup(stats, "lxml")
 print(soup.prettify())
 
 soup.find_all()
+
+
+# grabbing all p tags
+soup.currentTag('p')
