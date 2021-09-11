@@ -19,3 +19,5 @@ soup.find_all()
 
 # grabbing all p tags
 soup.currentTag('<p>')
+
+soup.find(name, attrs)
