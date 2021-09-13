@@ -21,3 +21,5 @@ soup.find_all()
 soup.currentTag('<p>')
 
 soup.find(name, attrs)
+
+soup.get_text(separator)
