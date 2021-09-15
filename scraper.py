@@ -22,4 +22,6 @@ soup.currentTag('<p>')
 
 soup.find(name, attrs)
 
+soup.select('Scores')
+
 soup.get_text(separator)
