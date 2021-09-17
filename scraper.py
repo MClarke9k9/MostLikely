@@ -22,6 +22,9 @@ soup.currentTag('<p>')
 
 soup.find(name, attrs)
 
-soup.select('Scores')
+scores = soup.select('Scores')
+
+for i in scores:
+     scores[i]
 
 soup.get_text(separator)
